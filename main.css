@@ -1,0 +1,119 @@
+#welcome-div,
+#main-div,
+#search-box-div {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.search-box-form {
+  border: 0 solid black;
+  padding: 2px;
+  margin: 100px auto 20px auto;
+}
+
+.search-box {
+  width: 80%;
+  max-width: 550px;
+  background: #fff;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  height: 44px;
+  font-size: medium;
+  padding-left: 10px;
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.search-button {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f5f5f5),
+    to(#f1f1f1)
+  );
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  -webkit-border-radius: 2px;
+  -webkit-user-select: none;
+  background-color: #f2f2f2;
+  border: 1px solid #bab7b7;
+  border-radius: 2px;
+  color: #757575;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
+}
+
+.search-button:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f8f8f8),
+    to(#f1f1f1)
+  );
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-image: -o-linear-gradient(top, #f8f8f8, #f1f1f1);
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+  transition: 0.8s;
+}
+
+body {
+  height: 100%;
+  background-size: cover;
+}
+
+.invisible_element {
+  display: none !important;
+}
+
+.animatable {
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+
+.animatable.fade {
+  opacity: 0;
+}
+
+#content {
+  line-height: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 4vmin;
+}
+
+#welcome-content {
+  line-height: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 4vmin;
+}
+
+#gmail-div {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#change-path {
+    right: 20px;
+    top: 30px;
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+}

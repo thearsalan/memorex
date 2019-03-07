@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memorex</title>
+    <link href="main.css" rel="stylesheet"/>
+    <link
+            href="http://fonts.googleapis.com/css?family=Lato:100,200,300"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <script src="main.js"></script>
+</head>
+<body>
+<div id="gmail-div" class="invisible_element animatable fade">
+    <a href="https://gmail.com"><img src="logo-gmail.png" height="50" width="60"/></a>
+    <a href="https://google.com/maps"><img src="logo-maps.png" height="60" width="60" style="margin-bottom: -4px"/></a>
+    <a href="https://google.com/maps"><img src="logo-github.png" height="45" width="45" style="margin-bottom: 5px"/></a>
+    <a id="change-path">Change Path</a>
+</div>
+
+<div id="welcome-div">
+    <h1 id="welcome-content" class="invisible_element animatable fade">
+        Select what you want to learn accidentally!
+    </h1>
+    <select name="libraries" title="libraries" id="libraries" class="invisible_element animatable fade">
+        <option disabled selected value="-1" data-content="">Select one</option>
+    </select>
+</div>
+
+<div id="main-div">
+    <h1 id="content" class="invisible_element animatable fade"></h1>
+</div>
+
+<div id="search-box-div" class="invisible_element animatable fade">
+    <form method="get" action="http://www.google.com/search">
+        <div class="search-box-form">
+            <input
+                    class="search-box"
+                    title="search"
+                    type="text"
+                    name="q"
+                    size="25"
+            />
+        </div>
+        <div>
+            <button class="animatable search-button" type="submit">
+                Google Search
+            </button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
