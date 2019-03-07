@@ -73,7 +73,6 @@ function loadData() {
     loadJSON(fileTitle, function (response) {
 
         content = JSON.parse(response);
-        console.log(content);
 
         title = content[0]["title"];
         values = content[0]["values"];

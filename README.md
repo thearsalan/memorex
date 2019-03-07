@@ -1,6 +1,7 @@
 # Memorex
 
-Memorex is a [Chrome Extension](https://www.google.com) that helps you memorize and practice by randomly feeding you bite sizes of information.
+Memorex is a [Chrome Extension](https://chrome.google.com/webstore/detail/memorex/emppbpgjhjnmodccaldkfcmocoefjbgp) 
+that helps you memorize and practice anything, by randomly feeding you bite sizes of information.
 
 All contributions to the code based and the knowledge base are appreciated. 
 
@@ -15,10 +16,10 @@ The file name should be the same as the slug, as well.
     "slug": "someSlug",
     "values": [
       {
-        "value": "SomeValue \n AdditionalValue"
+        "value": "SomeWord \n itsMeaning"
       },
       {
-        "value": "AnotherValue"
+        "value": "someTextToRemember"
       },
       ...
     ]
