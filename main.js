@@ -134,7 +134,6 @@ function fadeIn(element, delay) {
     element.classList.remove("invisible_element");
     setTimeout(function () {
         element.classList.remove("fade");
-        document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0;
     }, delay);
 }
@@ -142,7 +141,6 @@ function fadeOut(element, delay) {
     element.classList.add("invisible_element");
     setTimeout(function () {
         element.classList.add("fade");
-        document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0;
     }, delay);
 
